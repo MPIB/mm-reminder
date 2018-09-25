@@ -36,4 +36,19 @@ Login into your Mattermost account and type
 Somewhere to get a help for the slash command
 
 ## Usage
-### Reminder Slash command\nThis slash command can be used to send a message to a channel or a member in the future.\n\n## Usage\nEnter ```/remind @who -- when -- what``` in the input text field.  \n- ***@who***: can be a username or @all if you want to remind the whole channel you are currently into. If you want to remind yourself use @me. \n- ***when***: can be a delay in seconds, hours or days if you enter the prefix "in". Otherwise the the command will interprete your input as date.\n- ***what***: What do you want to remind someone. Can be anything.\n\nAfter your reminder was recognized correctly you will receive a confirmation from the reminder bot including a delete button which allow you to remove an unsended reminder.\n\nTo retrieve a list of all your open reminders use ```/remind get``` \n## Examples\n- ```/remind @all -- at 15:50 -- don\'t forget the tea time```\n- ```/remind @peter -- in 2 hours -- please check your emails```\n- ```/remind @me -- at 22 Dec 2018 12:00 -- buy a christmas present for peter```
+### Reminder Slash command
+This slash command can be used to send a message to a channel or a member in the future.
+
+## Usage
+Enter ```/remind @who -- when -- what``` in the input text field.  
+- ***@who***: can be a username or @all if you want to remind the whole channel you are currently into. If you want to remind yourself use @me. 
+- ***when***: can be a delay in seconds, hours or days if you enter the prefix "in". Otherwise the the command will interprete your input as date.
+- ***what***: What do you want to remind someone. Can be anything.
+
+After your reminder was recognized correctly you will receive a confirmation from the reminder bot including a delete button which allow you to remove an unsended reminder.
+
+To retrieve a list of all your open reminders use ```/remind get``` 
+## Examples
+- ```/remind @all -- at 15:50 -- don\'t forget the tea time```
+- ```/remind @peter -- in 2 hours -- please check your emails```
+- ```/remind @me -- at 22 Dec 2018 12:00 -- buy a christmas present for peter```
