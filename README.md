@@ -36,10 +36,6 @@ Login into your Mattermost account and type
 Somewhere to get a help for the slash command
 
 ## Usage
-### Reminder Slash command
-This slash command can be used to send a message to a channel or a member in the future.
-
-## Usage
 Enter ```/remind @who -- when -- what``` in the input text field.  
 - ***@who***: can be a username or @all if you want to remind the whole channel you are currently into. If you want to remind yourself use @me. 
 - ***when***: can be a delay in seconds, hours or days if you enter the prefix "in". Otherwise the the command will interprete your input as date.
