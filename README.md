@@ -1,4 +1,4 @@
-### Mattermost slashcommand for sending reminders
+# Mattermost slashcommand for sending reminders
 
 ## Requirements
 
